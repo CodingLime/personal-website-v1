@@ -1,0 +1,58 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.nav-bar-bg {
+  background-color: #2a0d41;
+}
+
+.nav-bar-text-color {
+  color: #2a0d41;
+}
+
+.website-bg {
+  background-color: #121212;
+}
+
+.svg-bg {
+  fill: #ffffff;
+}
+
+.extra-life-text-light-blue {
+  color: #33ccff;
+}
+
+.extra-life-milestone-blue {
+  background-color: #33ccff;
+}
+
+.svg-bg:hover {
+  --tw-text-opacity: 1;
+  fill: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.max-h-94 {
+  max-height: 22.875rem /* 366px */;
+}
+
+.tooltip-point {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #1f2937 transparent;
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
+
+.break-words-per-line {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-word;
+  word-break: break-word;
+}
